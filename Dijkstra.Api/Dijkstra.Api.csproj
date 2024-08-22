@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dijkstra.Core\Dijkstra.Core.csproj" />
+    <ProjectReference Include="..\Dijkstra.Infrastructure\Dijkstra.Infrastructure.csproj" />
+    <ProjectReference Include="..\Dijkstra.Shared\Dijkstra.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

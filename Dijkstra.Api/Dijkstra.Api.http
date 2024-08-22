@@ -1,0 +1,6 @@
+@Dijkstra.Api_HostAddress = http://localhost:5209
+
+GET {{Dijkstra.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

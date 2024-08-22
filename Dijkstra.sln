@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.34909.67
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra.Console", "Dijkstra.Console\Dijkstra.Console.csproj", "{0878FF93-FDCE-4CDF-91ED-232B99450160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra.Api", "Dijkstra.Api\Dijkstra.Api.csproj", "{1B11439A-174E-4004-99CB-7006B26CD7AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra.Core", "Dijkstra.Core\Dijkstra.Core.csproj", "{5906B724-0321-491A-8B46-6BFD9A522BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra.Infrastructure", "Dijkstra.Infrastructure\Dijkstra.Infrastructure.csproj", "{CB920C15-167E-4D59-AD0B-245C1DC5B054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra.Shared", "Dijkstra.Shared\Dijkstra.Shared.csproj", "{C266BD20-484B-4D70-A41C-40A659D9DAE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra.UnitTest", "Dijkstra.UnitTest\Dijkstra.UnitTest.csproj", "{52AD3AA2-FF24-4E6C-9662-3F5EA57C1735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0878FF93-FDCE-4CDF-91ED-232B99450160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0878FF93-FDCE-4CDF-91ED-232B99450160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0878FF93-FDCE-4CDF-91ED-232B99450160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0878FF93-FDCE-4CDF-91ED-232B99450160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B11439A-174E-4004-99CB-7006B26CD7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B11439A-174E-4004-99CB-7006B26CD7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B11439A-174E-4004-99CB-7006B26CD7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B11439A-174E-4004-99CB-7006B26CD7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5906B724-0321-491A-8B46-6BFD9A522BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5906B724-0321-491A-8B46-6BFD9A522BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5906B724-0321-491A-8B46-6BFD9A522BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5906B724-0321-491A-8B46-6BFD9A522BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB920C15-167E-4D59-AD0B-245C1DC5B054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB920C15-167E-4D59-AD0B-245C1DC5B054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB920C15-167E-4D59-AD0B-245C1DC5B054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB920C15-167E-4D59-AD0B-245C1DC5B054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C266BD20-484B-4D70-A41C-40A659D9DAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C266BD20-484B-4D70-A41C-40A659D9DAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C266BD20-484B-4D70-A41C-40A659D9DAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C266BD20-484B-4D70-A41C-40A659D9DAE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52AD3AA2-FF24-4E6C-9662-3F5EA57C1735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AD3AA2-FF24-4E6C-9662-3F5EA57C1735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AD3AA2-FF24-4E6C-9662-3F5EA57C1735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AD3AA2-FF24-4E6C-9662-3F5EA57C1735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F08381CB-DDCA-48DE-9858-4E73D895F003}
+	EndGlobalSection
+EndGlobal
