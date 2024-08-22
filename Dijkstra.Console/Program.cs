@@ -12,7 +12,7 @@ string endNode = Console.ReadLine();
 
 IAlgorithmService service = new AlgorithmService();
 
-var response = service.ShortestPath(startNode, endNode, new Nodes().InitializeData());
+var response = service.ShortestPath(startNode.ToUpper(), endNode.ToUpper(), new Nodes().InitializeData());
 
 Console.WriteLine($"Shortest path from {startNode} to {endNode}: {string.Join(" -> ", response.NodeNames)}");
 Console.WriteLine($"Total distance: {response.Distance}");
